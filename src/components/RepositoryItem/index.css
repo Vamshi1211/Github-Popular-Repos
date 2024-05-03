@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.repo-list-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .repo-list-item-container {
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.name-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #e73959;
+}
+@media screen and (min-width: 768px) {
+  .name-heading {
+    font-size: 18px;
+  }
+}
+.avatar-image {
+  height: 100px;
+  width: 100px;
+}
+
+.des-container {
+  width: 60%;
+}
+
+.stars-count-container {
+  display: flex;
+  align-items: center;
+}
+
+.stars-image {
+  height: 25px;
+  margin-right: 10px;
+}
+.stars-count {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .stars-count {
+    font-size: 18px;
+  }
+}
+
+.issues-image {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.issues-count {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .issues-count {
+    font-size: 18px;
+  }
+}

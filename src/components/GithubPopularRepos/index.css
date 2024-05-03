@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 32px;
+}
+
+.languages-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 85%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .languages-container {
+    width: 40%;
+  }
+}
+
+.repository-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .repository-list-container {
+    max-width: 1110px;
+  }
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+}
+
+.failure-heading {
+  color: #1e293b;
+  font-family: 'Lobster';
+  font-size: 28px;
+  font-weight: 600;
+}
